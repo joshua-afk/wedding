@@ -1,33 +1,55 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="wedding">
+        <header className="wedding__header">
+          <div className="wedding__header-logo">LOGO</div>
+          <ul className="wedding__header-items">
+            <li className="wedding__header-item">
+              <a href="#our-story">Our Story</a>
+            </li>
+            <li className="wedding__header-item">
+              <a href="#invitation">Invidation</a>
+            </li>
+            <li className="wedding__header-item">
+              <a href="#prenup">Prenup</a>
+            </li>
+            <li className="wedding__header-item">
+              <a href="#wedding-party">Wedding Party</a>
+            </li>
+            <li className="wedding__header-item">
+              <a href="#faqs">FAQs</a>
+            </li>
+            <li className="wedding__header-item">
+              <a href="#rsvp">RSVP</a>
+            </li>
+          </ul>
+        </header>
+
+        <section id="our-story">
+        </section>
+
+        <section id="invitation">
+        </section>
+
+        <section id="prenup">
+        </section>
+
+        <section id="wedding-party">
+        </section>
+
+        <section id="faqs">
+        </section>
+
+        <section id="rsvp">
+        </section>
+
+        <footer>
+        </footer>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

@@ -1,0 +1,35 @@
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen'; */
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.wedding {
+  height: 100%;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__header-logo {
+    flex-grow: 1;
+  }
+
+  &__header-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__header-item {
+
+  }
+}
+
