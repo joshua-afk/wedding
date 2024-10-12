@@ -39,6 +39,26 @@ a:hover {
   color: #ffbf00;
 }
 
+a.button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  transition: border-color 0.25s;
+  transition: color 0.25s;
+}
+
+a.button:hover {
+  border-color: #ffbf00;
+  color: #ffbf00;
+}
+
 h1 {
   font-size: 52px;
   line-height: 1.1;
