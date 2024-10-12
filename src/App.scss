@@ -7,14 +7,16 @@ $date-height: 450px;
   &__header {
     display: flex;
     flex-direction: row;
-  }
-
-  &__header-logo {
-    flex-grow: 1;
+    justify-content: center;
+    padding: 1.5rem 0;
+    position: absolute;
+    width: 100%;
+    z-index: 40;
   }
 
   &__header-items {
     display: flex;
+    gap: 64px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -22,6 +24,15 @@ $date-height: 450px;
 
   &__header-item {
 
+    & > a {
+      color: #6b7280;
+
+    }
+
+    & > a:hover {
+      color: #ffffff;
+      transition: color 0.35s;
+    }
   }
 
   &__banner {

@@ -6,20 +6,22 @@ function App() {
     <>
       <div className="wedding">
         <header className="wedding__header">
-          <div className="wedding__header-logo">LOGO</div>
           <ul className="wedding__header-items">
             <li className="wedding__header-item">
-              <a href="#our-story">Our Story</a>
+              <a href="#banner">Home</a>
             </li>
-            <li className="wedding__header-item">
-              <a href="#invitation">Invidation</a>
-            </li>
-            <li className="wedding__header-item">
-              <a href="#prenup">Prenup</a>
-            </li>
-            <li className="wedding__header-item">
-              <a href="#wedding-party">Wedding Party</a>
-            </li>
+            {/* <li className="wedding__header-item"> */}
+            {/*   <a href="#our-story">Our Story</a> */}
+            {/* </li> */}
+            {/* <li className="wedding__header-item"> */}
+            {/*   <a href="#invitation">Invitation</a> */}
+            {/* </li> */}
+            {/* <li className="wedding__header-item"> */}
+            {/*   <a href="#prenup">Prenup</a> */}
+            {/* </li> */}
+            {/* <li className="wedding__header-item"> */}
+            {/*   <a href="#wedding-party">Wedding Party</a> */}
+            {/* </li> */}
             <li className="wedding__header-item">
               <a href="#faqs">FAQs</a>
             </li>
