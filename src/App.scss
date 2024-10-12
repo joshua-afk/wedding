@@ -1,13 +1,5 @@
-body {
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen'; */
-  margin: 0;
-  padding: 0;
-}
-
-#root {
-  min-height: 100vh;
-  width: 100%;
-}
+$topbar-height: 42px;
+$date-height: 450px;
 
 .wedding {
   height: 100%;
@@ -30,6 +22,83 @@ body {
 
   &__header-item {
 
+  }
+
+  &__banner {
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+
+    &-date-container {
+      position: relative;
+      text-align: center;
+      // top: calc(100vh - $date-height - 41px);
+      z-index: 10;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+
+    &-date {
+      color: #ffffff;
+      container-name: 'wedding__banner-date-container';
+      font-size: $date-height;
+      line-height: 0.75;
+      // Overflow text equally to left and right
+      margin-left: -100%;
+      margin-right: -100%;
+      text-align: center;
+    }
+
+    &-layer {
+      background-color: #000000;
+      bottom: 100vh;
+      height: 100vh;
+      opacity: .75;
+      position: relative;
+      z-index: 20;
+    }
+
+    &-contents {
+      align-items: center;
+      bottom: 200vh;
+      display: flex;
+      flex-flow: column;
+      height: 100vh;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+      z-index: 30;
+
+      & > h4 {
+        font-family: 'Rubik', sans-serif;
+        // font-size: 24px;
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      & > h2 {
+        font-size: 120px;
+        font-weight: 500;
+        margin-bottom: 32px;
+      }
+
+      & > p {
+        font-size: 18px;
+      }
+    }
+
+    &-button {
+      background-color: transparent;
+      border-radius: 20px;
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      margin-top: 48px;
+      width: 11rem; // TODO: change this after we've add arrow-right icon
+    }
   }
 }
 

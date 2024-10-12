@@ -29,6 +29,22 @@ function App() {
           </ul>
         </header>
 
+        <section id="banner">
+          <div className="wedding__banner">
+            <div className="wedding__banner-date-container">
+              <h1 className="wedding__banner-date">122824</h1>
+            </div>
+            <div className="wedding__banner-layer"></div>
+            <div className="wedding__banner-contents">
+              <h4>Dear,</h4>
+              <h2>Guests</h2>
+              <p>We&apos;re getting married! It would mean the world to us if you honor us of your presence.</p>
+              <p>Saturday, December 12, 2024</p>
+              <button className="wedding__banner-button">Save the date</button>
+            </div>
+          </div>
+        </section>
+
         <section id="our-story">
         </section>
 
