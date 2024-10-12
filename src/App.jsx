@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.scss'
 
 function App() {
@@ -47,23 +47,25 @@ function App() {
           </div>
         </section>
 
-        <section id="our-story">
-        </section>
+        {/* <section id="our-story"> */}
+        {/* </section> */}
+        {/**/}
+        {/* <section id="invitation"> */}
+        {/* </section> */}
+        {/**/}
+        {/* <section id="prenup"> */}
+        {/* </section> */}
+        {/**/}
+        {/* <section id="wedding-party"> */}
+        {/* </section> */}
+        {/**/}
+        {/* <section id="faqs"> */}
+        {/* </section> */}
 
-        <section id="invitation">
-        </section>
-
-        <section id="prenup">
-        </section>
-
-        <section id="wedding-party">
-        </section>
-
-        <section id="faqs">
-        </section>
-
-        <section id="rsvp">
-        </section>
+        {/* <section id="rsvp"> */}
+        {/*   <div className="wedding__rsvp"> */}
+        {/*   </div> */}
+        {/* </section> */}
 
         <footer>
         </footer>
