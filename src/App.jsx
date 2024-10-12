@@ -38,8 +38,8 @@ function App() {
             <div className="wedding__banner-contents">
               <h4>Dear,</h4>
               <h2>Guests</h2>
-              <p>We&apos;re getting married! It would mean the world to us if you honor us of your presence.</p>
-              <p>Saturday, December 12, 2024</p>
+              <p>We&apos;re getting married! It would mean the world to us if you honor us with your presence.</p>
+              <p>Saturday, December 28, 2024</p>
               <button className="wedding__banner-button">Save the date</button>
             </div>
           </div>
