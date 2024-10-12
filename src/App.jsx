@@ -78,7 +78,10 @@ function App() {
                 seat per submission. Should you wish to reserve on behalf of another invited guest,
                 we ask you to complete an additional form.
               </p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeunbAcctFrowFmYCHaKRIJNsJLY8XoUcgRr1COMO5kVHg4ZQ/viewform">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeunbAcctFrowFmYCHaKRIJNsJLY8XoUcgRr1COMO5kVHg4ZQ/viewform"
+                target="blank"
+              >
                 Go to RSVP form
               </a>
             </div>
