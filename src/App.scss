@@ -115,20 +115,19 @@ section {
 
       & > h2 {
         font-size: 120px;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
       }
 
       & > p {
         font-size: 18px;
-        padding-bottom: 4px;
+        margin-bottom: 16px;
+        max-width: 750px;
       }
     }
 
     &-button {
-      background-color: transparent;
-      border: 1px solid #ffffff;
-      border-radius: 20px;
-      color: #ffffff;
+      display: flex;
+      justify-content: center;
       margin-top: 48px;
       width: 11rem; // TODO: change this after we've add arrow-right icon
     }
@@ -190,7 +189,9 @@ section {
 
     &__banner {
       &-contents > h2 {
-        font-size: 108px;
+        font-size: 72px;
+        line-height: 1.2;
+        margin: 48px 0;
       }
 
       &-contents > p {

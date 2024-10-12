@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import { RiArrowRightLine } from '@remixicon/react';
 import './App.scss';
 
 function App() {
@@ -38,14 +39,22 @@ function App() {
             </div>
             <div className="wedding__banner-layer"></div>
             <div className="wedding__banner-contents">
-              <h4>Dear,</h4>
-              <h2>Guests</h2>
+              <h4>We,</h4>
+              <h2>Joshua &amp; Keycil</h2>
               <p>
-                We&apos;re getting married! It would mean the world to us if you honor us with your
-                presence.
+                together with <b>our parents</b>, joyfully invite you to our wedding, where the
+                breathtaking view of Mayon inspires a love story written in the beauty of ash and
+                fire.
               </p>
               <p>Saturday, December 28, 2024</p>
-              <button className="wedding__banner-button">Save the date</button>
+              <a
+                className="wedding__banner-button button"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeunbAcctFrowFmYCHaKRIJNsJLY8XoUcgRr1COMO5kVHg4ZQ/viewform"
+                target="blank"
+              >
+                Save the date&ensp;
+                <RiArrowRightLine />
+              </a>
             </div>
           </div>
         </section>
