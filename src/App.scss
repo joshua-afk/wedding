@@ -2,8 +2,11 @@ $topbar-height: 42px;
 $date-height: 450px;
 
 section {
+  background-color: #000000;
+  color: #ffffff;
   height: 100vh;
   position: relative;
+  width: 100%;
 }
 
 .wedding {
@@ -13,7 +16,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0; // TODO: change this to px
     position: absolute;
     width: 100%;
     z-index: 40;
@@ -28,7 +31,6 @@ section {
   }
 
   &__header-item {
-
     & > a {
       color: #6b7280;
 
@@ -42,21 +44,21 @@ section {
 
   &__banner {
     background-color: #000000;
-    color: #FFFFFF;
+    height: 100vh;
     position: absolute;
     width: 100%;
-    height: 100vh;
 
     &-date-container {
-      position: relative;
-      text-align: center;
-      // top: calc(100vh - $date-height - 41px);
-      z-index: 10;
-      height: 100%;
       display: flex;
       flex-direction: column;
+      height: 100%;
       justify-content: flex-end;
       overflow: hidden;
+      position: relative;
+      text-align: center;
+
+      // top: calc(100vh - $date-height - 41px);
+      z-index: 10;
     }
 
     &-date {
@@ -64,6 +66,7 @@ section {
       container-name: 'wedding__banner-date-container';
       font-size: $date-height;
       line-height: 0.75;
+
       // Overflow text equally to left and right
       margin-left: -100%;
       margin-right: -100%;
@@ -93,7 +96,8 @@ section {
       z-index: 30;
 
       & > h4 {
-        font-family: 'Rubik', sans-serif;
+        font-family: Rubik, sans-serif;
+
         // font-size: 24px;
         font-size: 18px;
         font-weight: 300;
@@ -101,7 +105,6 @@ section {
 
       & > h2 {
         font-size: 120px;
-        font-weight: 500;
         margin-bottom: 32px;
       }
 
@@ -113,11 +116,34 @@ section {
 
     &-button {
       background-color: transparent;
-      border-radius: 20px;
       border: 1px solid #ffffff;
+      border-radius: 20px;
       color: #ffffff;
       margin-top: 48px;
       width: 11rem; // TODO: change this after we've add arrow-right icon
+    }
+  }
+
+  &__rsvp {
+    padding: 265px;
+
+    &-container {
+      align-items: center;
+      background-color: #404040;
+      display: flex;
+      flex-direction: column;
+      padding: 96px;
+    }
+
+    &-header {
+      font-size: 48px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    &-context {
+      font-size: 18px;
+      margin-bottom: 24px;
     }
   }
 }
