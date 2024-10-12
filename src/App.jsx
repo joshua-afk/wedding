@@ -73,10 +73,16 @@ function App() {
                 It is with great pleasure that we invite you to the wedding of{' '}
                 <span>Joshua Ryan Velasquez &amp; Keycil Princesa</span>, to be held at the
                 Tula-Tula Pequeño, Ligao City, Albay on the twenty-eight day of December in the year
-                2024. To ensure your place in this celebration, we kindly request that you use the
+                2024.
+              </p>
+              <p className="wedding__rsvp-context">
+                To ensure your place in this celebration, we kindly request that you use the
                 provided form to reserve your seat. Please note that each guest may secure only one
-                seat per submission. Should you wish to reserve on behalf of another invited guest,
-                we ask you to complete an additional form.
+                seat per submission.
+              </p>
+              <p className="wedding__rsvp-context">
+                Should you wish to reserve on behalf of another invited guest, we ask you to
+                complete an additional form.
               </p>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeunbAcctFrowFmYCHaKRIJNsJLY8XoUcgRr1COMO5kVHg4ZQ/viewform"
